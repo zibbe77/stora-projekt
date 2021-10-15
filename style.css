@@ -4,4 +4,28 @@
   box-sizing: border-box;
 }
 .column {
+  columns: 2;
+  margin: 30px;
+}
+
+header {
+  padding: 10px;
+  display: flex;
+
+  justify-content: space-between;
+  max-height: 10px;
+}
+
+header div {
+  display: flex;
+  flex-direction: column;
+}
+
+.colom {
+  display: flex;
+  flex-direction: column;
+}
+
+.last {
+  columns: 2;
 }
