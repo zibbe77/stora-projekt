@@ -1,3 +1,6 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Italianno&display=swap");
+
 * {
   margin: 0;
   padding: 0;
@@ -29,8 +32,33 @@ header div {
   align-items: center;
 }
 
+a:hover {
+  background-color: brown;
+  font-family: "Open Sans", sans-serif;
+  text-decoration: none;
+}
+
+a {
+  font-family: "Open Sans";
+  font-family: "Open Sans", sans-serif;
+  font-size: 20px;
+  text-decoration: none;
+  width: 100%;
+  border: solid #5b6dcd 5px;
+  padding: 5px;
+  margin: 4px;
+}
+
 .tillsamans {
   place-items: center;
+  text-align: center;
+  background-color: blue;
+}
+
+.boxsak {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .lista {
@@ -38,4 +66,17 @@ header div {
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
+}
+
+p {
+  font-family: "Open Sans", sans-serif;
+}
+
+h1 {
+  font-family: "Italianno", cursive;
+  font-size: 60px;
+}
+h2 {
+  font-family: "Italianno", cursive;
+  font-size: 40px;
 }
