@@ -39,7 +39,7 @@ header div {
 }
 
 a:hover {
-  background-color: brown;
+  background-color: #101c42;
   font-family: "Open Sans", sans-serif;
   text-decoration: none;
 }
@@ -50,7 +50,7 @@ a {
   font-size: 20px;
   text-decoration: none;
   width: 100%;
-  border: solid #5b6dcd 5px;
+  border: solid #0a122a 5px;
   padding: 5px;
   margin: 4px;
 }
@@ -58,7 +58,6 @@ a {
 .tillsamans {
   place-items: center;
   text-align: center;
-  background-color: red;
   padding-right: 10%;
   padding-left: 10%;
   margin: 10%;
@@ -68,6 +67,7 @@ a {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  padding: 5%;
 }
 
 .lista {
@@ -110,6 +110,7 @@ h2 {
   flex-direction: column;
   padding-right: 10%;
   padding-left: 5%;
+  margin: 1%;
 }
 
 .rand {
@@ -119,7 +120,7 @@ h2 {
   flex-direction: column;
   padding-right: 20%;
   padding-left: 20%;
-  background-color: blueviolet;
+  background-color: #2e4d2e;
   padding-top: 4%;
   padding-bottom: 4%;
 }
@@ -130,4 +131,14 @@ img {
 
 .over {
   padding: 0%;
+  border: 0px;
+}
+
+.bruh {
+  margin: 1%;
+  padding: 1rem;
+}
+
+.bruh2 {
+  margin: 1%;
 }
