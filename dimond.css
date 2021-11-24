@@ -1,0 +1,27 @@
+header {
+    background-color: #30343F
+}
+body {
+    background-color: #C5CDE7;
+    color: white;
+  }
+  
+  .tillsamans {
+    background-color: #A1CDF4;
+    border: solid #4259B3 10px;
+  }
+  
+  img {
+    padding: 0px;
+    border: solid #4259B3 10px;
+  }
+  
+  p {
+    border: solid #4259B3 10px;
+    background-color: #A1CDF4;
+    padding: 1rem;
+  }
+  .rand{
+    background-color: #1876C9;
+  }
+ 
