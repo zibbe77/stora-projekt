@@ -71,13 +71,13 @@ a {
 }
 
 .boxsak {
-  display: flex;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
   justify-content: space-between;
   align-items: center;
   padding: 5%;
-  flex-direction: row;
   flex-wrap: wrap;
-  width: 100%;
+    width: 100%;
 }
 
 .lista {
